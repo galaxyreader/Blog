@@ -106,7 +106,7 @@ time {
 main {
 	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
 	font-size: 18px;
-	color: #555555;
+	color: #888888;
 	width: 580px;
 	margin: 0 auto;
 	padding-top: 60px;
@@ -122,6 +122,14 @@ main ul {
 	left: 22px;
 	list-style-type: disc;
 	line-height: 30px;
+}
+
+a:link {
+    color: #888888;
+}
+
+a:visited {
+    color: #222222;
 }
 
 .comment {
@@ -246,7 +254,7 @@ button {
 	top: 60px;
 }
 
-.share li a {
+.share a {
 	list-style: none;
 	font-family: "Teko", Helvetica, Arial, sans-serif;
 	font-weight: 300;
